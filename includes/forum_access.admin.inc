@@ -44,7 +44,7 @@ function _forum_access_form_moderators_save(FormStateInterface $form_state) {
   if ($data = $form_state->getValue(['forum_access', 'moderators'])) {
     if ($data['acl_id'] == 0) {
       $tid = $form_state->getValue(['tid']);
-      module_load_include('inc', 'forum_access', 'includes/forum_access.acl');
+      \Drupal::moduleHandler()->loadInclude('forum_access', 'inc', 'includes/forum_access.acl');
       $data['acl_id'] = forum_access_get_acl($tid, "moderate");
     }
     acl_save_form($data, 0);
