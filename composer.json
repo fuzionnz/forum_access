@@ -13,6 +13,11 @@
       "name": "István Kurucz (nevergone)",
       "homepage": "https://www.drupal.org/u/nevergone",
       "role": "Co-maintainer, D8 port"
+    },
+    {
+      "name": "Mikhail Khasaya (dillix)",
+      "homepage": "https://www.drupal.org/u/dillix",
+      "role": "Co-maintainer, D10 port"
     }
   ],
   "support": {
@@ -21,6 +26,6 @@
   },
   "license": "GPL-2.0-or-later",
   "require": {
-    "drupal/acl": "^1.1"
+    "drupal/acl": ">=1.1"
   }
 }

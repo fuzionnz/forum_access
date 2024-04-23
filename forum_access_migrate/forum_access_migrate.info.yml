@@ -1,7 +1,7 @@
 name: Forum Access Migrate
 type: module
 description: Migrating Forum Access datas.
-core_version_requirement: ^8.8 || ^9
+core_version_requirement: ^9.4 || ^10 || ^11
 package: Migration
 
 dependencies:
